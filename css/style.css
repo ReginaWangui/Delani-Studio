@@ -1,3 +1,21 @@
 .banner{
-    background-image: url("../img/background.png");
+    background-image: url("../img/h_img.jpg");
+    height:auto;
 }
+.content {
+    color: white;
+    margin-left: 400px;
+    padding-top: 200px;
+    
+}
+.img1{
+   
+   max-width:100%;
+   height:100px;
+   margin-left: 180px;
+}
+ .img2{
+     height: 50px;
+     margin-bottom: 10px;
+     margin-left: 200px;
+ }

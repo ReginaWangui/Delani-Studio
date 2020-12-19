@@ -17,3 +17,12 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+//PORTFOLIO
+$(document).ready(function(){
+	$("do").hover(function(){
+	  $(this).css("background-image", "img/work4.jpg");
+	  }, function(){
+	  $(this).css("background-image", "img/work3.jpg");
+	});
+  });
+  //

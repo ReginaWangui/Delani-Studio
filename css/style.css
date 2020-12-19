@@ -46,3 +46,22 @@
  .do p{
     margin-left: 100px;
  }
+ .port img{
+     width: 250px;
+     height: 300px;
+     padding: 10px;
+     margin: 0px;
+
+ }.port h3{
+     margin-left: 500px;
+     
+ }
+ .contact {
+     background-image: url(../img/c_image.jpg);
+     height:auto;
+ }
+ .contact h3{
+    color: white;
+    margin-left: 500px;
+
+ }

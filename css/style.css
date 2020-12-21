@@ -1,24 +1,22 @@
 .banner{
     background-image: url("../img/h_img.jpg");
-    height:800px;
+    height:500px;
 }
 .content {
     color: white;
     margin-left: 400px;
-    padding-top: 200px;
+    padding-top: 100px;
     
 }
 .img1{
-   max-width:100%;
+  
    height:100px;
    margin-left: 180px;
 }
  .img2{
      height: 50px;
-     margin-bottom: 10px;
-     margin-left: 200px;
+    
  }
-
  .services{
     background-image: url("../img/s_image.jpg");
     height:500px;
@@ -38,7 +36,16 @@
  .do img{
      padding-left: 100px;
      padding-right: 100px;
+     
  }
+ /* This class can be replaced using options */
+.do hover-in{
+    transition: .3s ease-out;
+}
+.do hover-out{
+    transition: .3s ease-in;
+}
+
  .do h3{
      margin-left: 450px;
      margin-top: 30px;
@@ -47,19 +54,19 @@
  .do p{
     margin-left: 100px;
  }
- .port img{
-     width: 250px;
-     height: 300px;
+ .PORTFOLIO img{
+     width: 298px;
      padding: 10px;
-     margin: 0px;
 
- }.port h3{
+ }.PORTFOLI0 h3{
      margin-left: 500px;
      
  }
  .contact {
-     background-image: url(../img/c_image.jpg);
+     background-image: url("../img/c_image.jpg");
      height:auto;
+     width: 800;
+    
  }
  .contact h3{
     color: white;

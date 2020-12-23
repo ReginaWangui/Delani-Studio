@@ -1,15 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
+}
 .banner{
     background-image: url("../img/h_img.jpg");
     height:500px;
 }
 .content {
     color: white;
-    margin-left: 400px;
-    padding-top: 100px;
+    padding-top: 100px; 
+    text-align: center;
+    justify-content: center;
     
 }
 .img1{
-  
    height:100px;
    margin-left: 180px;
 }
@@ -57,15 +68,36 @@
  .PORTFOLIO img{
      width: 298px;
      padding: 10px;
+     overflow: hidden;
+     transition: all  0.3s ease-out;
+     cursor: pointer;
 
- }.PORTFOLI0 h3{
-     margin-left: 500px;
+ }
+ .PORTFOLIO h3{
+     margin-left: 550px;
      
+ }
+ .PORTFOLIO img:hover{
+    transform: scale(1.2);
+
+ }
+ .modal{
+     background-color: 0, 0, 0 ,0.6;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     height: 100%;
+
+ }
+ .modal p{
+     color: white;
+
  }
  .contact {
      background-image: url("../img/c_image.jpg");
      height:auto;
-     width: 800;
+     width: 750;
     
  }
  .contact h3{
@@ -77,10 +109,10 @@
  margin: 5px;
  }
  .copy p{
-     margin-left: 600px;
+     margin-left: 650px;
  }
  .copy h5{
-    margin-left: 550px;
+    margin-left: 600px;
  }
  .form-group{
      margin-left: 100px;

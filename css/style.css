@@ -41,30 +41,16 @@
      padding-top: 50px;
      color: white;
  }
- .do{
-     margin-left: 100px;
- }
- .do img{
-     padding-left: 100px;
-     padding-right: 100px;
-     
- }
- /* This class can be replaced using options */
-.do hover-in{
-    transition: .3s ease-out;
-}
-.do hover-out{
-    transition: .3s ease-in;
-}
 
- .do h3{
-     margin-left: 450px;
-     margin-top: 30px;
-     margin-bottom: 50px;
+.text-click {
+     display: none;
  }
- .do p{
-    margin-left: 100px;
- }
+ .text-click2 {
+    display: none;
+}
+.text-click3 {
+    display: none;
+}
  .PORTFOLIO img{
      width: 298px;
      padding: 10px;
@@ -80,18 +66,61 @@
  .PORTFOLIO img:hover{
     transform: scale(1.2);
 
- }
- .modal{
-     background-color: 0, 0, 0 ,0.6;
-     position: fixed;
-     top: 0px;
-     left: 0px;
-     width: 100%;
-     height: 100%;
 
  }
+ .gallery{
+     display: grid;
+     grid-auto-columns: repeat(auto-fit, minmax(100px, 1fr));
+     grid-gap: 2rem;
+     padding: 0;
+ }
+ .img-port{
+     overflow: hidden;
+     display: grid;
+ }
+
+ .img-port img{
+    display: grid;
+   
+    transition: all  0.3s ease-out;
+ }
+ .img-port img:hover{ 
+    transform: scale(2,2);
+ }
+ .modal{
+     background-color:rgba(0, 0, 0, 0.6);
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     pointer-events: none;
+     opacity: 0;
+     transition: all  0.25s ease-out;
+
+ }
+.modal.open{
+    opacity: 1;
+    pointer-events: all;
+}
  .modal p{
      color: white;
+     font-size: 2rem;
+     position: absolute;
+     left: 50%;
+     transform: translate(-50% , -5%);
+
+ }
+ .full-img{
+     position:absolute;
+     height: 70%;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50% ,-50%) scale(0.5);
+ }
+ .full-img.open{
+    transform: translate(-50% ,-50%) scale(1);
+    transition: all  0.25s ease-out;
 
  }
  .contact {

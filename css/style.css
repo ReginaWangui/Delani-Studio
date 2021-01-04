@@ -13,6 +13,7 @@
     background-image: url("../img/h_img.jpg");
     height:500px;
 }
+
 .content {
     color: white;
     padding-top: 100px; 
@@ -30,17 +31,16 @@
  }
  .services{
     background-image: url("../img/s_image.jpg");
-    height:500px;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
     padding-top: 100px;
  }
+
  .abt{
     margin-left: 100px;
  }
- .services h3{
-     margin-left: 600px;
-     padding-top: 50px;
-     color: white;
- }
+
 
 .text-click {
      display: none;
@@ -57,12 +57,14 @@
     text-align: center;
     background-color: transparent;
     border: solid 0.5px #c3c3c3;
+    
   }
   
   #panel {
     padding: 50px;
     display: none;
     margin-bottom: 5px;
+   
   }
   
  .PORTFOLIO img{
@@ -104,12 +106,6 @@
  }
  .footer img{
  margin: 5px;
- }
- .copy p{
-     margin-left: 650px;
- }
- .copy h5{
-    margin-left: 600px;
  }
  .form-group{
      margin-left: 100px;
